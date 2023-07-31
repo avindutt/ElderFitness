@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import Footer from "./Footer";
 import { Route, Routes } from "react-router-dom";
 import Get_Started from "../pages/Get-Started";
+import GetFit from "../pages/Get-Fit";
 
 function App() {
   // const [newData, setNewData] = useState([]);
@@ -27,6 +28,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/exercises-for-fitness" element={<Get_Started/>}></Route>
+        <Route path="/exercise" element={<GetFit/>}></Route>
       </Routes>
       <Footer/>
     </div>

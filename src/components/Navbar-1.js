@@ -8,7 +8,7 @@ export default function Navbar() {
       <nav>
        <Link to='/'><span>Home</span></Link>
        <Link to='/exercises-for-fitness'><span>Get Started</span></Link>
-       <Link to='/'><span>Get Fit</span></Link>
+       <Link to='/exercise'><span>Get Fit</span></Link>
        <Link to='/'><span>Blog</span></Link>
        <Link to='/'><span>About</span></Link>
       </nav>

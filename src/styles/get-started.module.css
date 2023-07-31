@@ -92,3 +92,16 @@ body{
 .video{
     margin-top: 3.5rem;
 }
+
+.fitbit li{
+    font-size: large;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 33px;
+    list-style: lower-greek;
+    max-width: 93%;
+}
+
+.task_thumbnail img{
+    width: 42.7em;
+}
