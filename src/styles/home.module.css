@@ -1,0 +1,134 @@
+.imageContainer{
+    margin-top: 50px;
+    background-image: url('https://www.cairnstotalphysio.com.au/wp-content/uploads/2019/09/adobestock_153159806.jpeg');
+    height: 700px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.imageContainer p:first-child{
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.imageContainer :nth-child(2){
+    font-size: 40px;
+    position: relative;
+    top: 3em;
+}
+
+.imageContainer :nth-child(3){
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: 2em;
+}
+
+.imageContainer :nth-child(4){
+    font-size: 55px;
+    font-weight: bold;
+    position: relative;
+    top: 10rem;
+    color: white;
+}
+
+.goals{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 29px;
+    margin: 35px;
+    text-align: center;
+}
+
+.goals button{
+    position: relative;
+    top: 20px;
+    padding: 15px;
+    background-color: rgb(214, 197, 11);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-size: larger;
+}
+
+.goals button:hover{
+    background-color: rgb(202, 176, 28);
+    cursor: pointer;
+}
+
+.goals img{
+    display: block;
+    height: 21.44em;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 20px rgb(183, 183, 183);
+}
+
+article{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 6rem;
+    width: 77%;
+    position: relative;
+    left: 12%;
+}
+
+.detail h1{
+    font-size: 30px;
+    color: rgb(39, 38, 38);
+}
+
+.detail p{
+    font-size: 18px;
+    line-height: 33px;
+    color: rgb(49, 49, 49);
+}
+
+.detail img{
+    width: 45rem;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.task_wrapper {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(230, 230, 230);
+    width: 96%;
+}
+
+.task_wrapper h1{
+    letter-spacing: 1px;
+    font-weight:400;
+}
+
+.task_wrapper img{
+    display: inline-block;
+    height: 20em;
+    width: 14em;
+    border-radius: 100px;
+    max-width: 100%;
+}
+
+.task_wrapper span {
+    position: relative;
+    top: 30px;
+    color: grey;
+}
+
+.task_wrapper div {
+    margin-left: 3em;
+    padding: 5px;
+}

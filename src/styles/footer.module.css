@@ -1,0 +1,33 @@
+footer{
+    background-color: rgb(56, 56, 56);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.copy{
+    color: white;
+    position: relative;
+    left: 10em;
+    padding: 11px;
+    letter-spacing: -0.5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(87, 160, 244);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+a:hover{
+    color: white;
+}
+
+.links{
+    display: flex;
+    gap: 35px;
+    position: relative;
+    left: 55em;
+}

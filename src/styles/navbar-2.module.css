@@ -1,0 +1,29 @@
+.container{
+    padding: 14px;
+    background: linear-gradient(to left, #3c5f94, #2a446a);
+    height: 6em;
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+    font-size: 35px;
+    margin-left: 4em;
+}
+
+.container span{
+    font-weight: bold;
+    letter-spacing: 5px;
+    position: relative;
+    top: -36px;
+    left: 8.9em;
+    color: rgb(255, 242, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container img {
+    height: 35px;
+}
