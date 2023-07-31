@@ -16,5 +16,17 @@ nav{
     gap: 12vw;
     height: 10vh;
     background-color: #3f6296;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav span{
+    text-decoration: none;
     color: white;
+}
+
+nav span:hover{
+    color: rgb(3, 65, 131);
 }

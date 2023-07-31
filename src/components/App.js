@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import Navbar from "./Navbar-1";
 import TopNavbar from "./Navbar-2";
-import Home from "./Home";
+import Home from "../pages/Home";
 import Footer from "./Footer";
+import { Route, Routes } from "react-router-dom";
+import Get_Started from "../pages/Get-Started";
 
 function App() {
   // const [newData, setNewData] = useState([]);
@@ -22,7 +24,10 @@ function App() {
     <div className="App">
       <TopNavbar/>
       <Navbar/>
-      <Home/>
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/exercises-for-fitness" element={<Get_Started/>}></Route>
+      </Routes>
       <Footer/>
     </div>
   );
