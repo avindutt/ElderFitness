@@ -6,20 +6,10 @@ import Footer from "./Footer";
 import { Route, Routes } from "react-router-dom";
 import Get_Started from "../pages/Get-Started";
 import GetFit from "../pages/Get-Fit";
+import Contact from "../pages/Contact";
 
 function App() {
-  // const [newData, setNewData] = useState([]);
-
-  // useEffect(() => {
-  //   fetch('http://localhost:8000/students')
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       setNewData(data);
-  //     })
-  //     .catch((error) => {
-  //       console.error('Error fetching dues:', error);
-  //     });
-  // }, []);
+  
 
   return (
     <div className="App">
@@ -29,6 +19,7 @@ function App() {
         <Route path="/" element={<Home/>}></Route>
         <Route path="/exercises-for-fitness" element={<Get_Started/>}></Route>
         <Route path="/exercise" element={<GetFit/>}></Route>
+        <Route path="/create-plan" element={<Contact/>}></Route>
       </Routes>
       <Footer/>
     </div>

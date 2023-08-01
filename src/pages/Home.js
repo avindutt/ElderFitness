@@ -1,11 +1,8 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from '../styles/home.module.css'
 import Tasks from '../components/Tasks';
 
 function Home() {
-    useEffect(()=> {
-        document.title = 'Home';
-    });
   return (
     <div>
       <section className={styles.imageContainer}>

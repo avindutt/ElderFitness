@@ -105,3 +105,10 @@ body{
 .task_thumbnail img{
     width: 42.7em;
 }
+
+.sidevideo{
+    display: flex;
+    flex-direction: column;
+    gap: 7em;
+    margin-top: 4rem;
+}

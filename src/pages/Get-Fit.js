@@ -41,7 +41,7 @@ export default function GetFit() {
                 <h2>How to Perform:</h2>
                 <ul className={styles.fitbit}>
                     <li>Start with your feet shoulder-width apart on a flat surface.</li>
-                    <li>Take a big step forward so you’re in a split-stance.</li>
+                    <li>Take a big step forward so you're in a split-stance.</li>
                     <li>Drop your back knee to the ground, while keeping your back straight and eyes level. You can hold your arms out to the side for extra balance, or put your hands on your hip.</li>
                     <li>Push the ground away from you in order to get back up into your split stance.</li>
                 </ul>
@@ -133,16 +133,22 @@ export default function GetFit() {
                     <p>A well-rounded exercise program should include both weight training and aerobic activity to maximize heart health.</p>
                     <p>Some people may think of cardiovascular exercise as grueling sessions on a treadmill or elliptical, but cardio can be a light activity or an intense activity that lowers stress.</p>
                     <p>Even a walking workout counts.</p>
-                    <p>One added benefit of cardio is better sleep, which reduces the risk of depression and Alzheimer’s disease.</p>
-                    <p>Cardio can be a low-impact form of exercise, as well as high-impact. High-impact exercises are better for strengthening the joints but aren’t for everyone.</p>
+                    <p>One added benefit of cardio is better sleep, which reduces the risk of depression and Alzheimer's disease.</p>
+                    <p>Cardio can be a low-impact form of exercise, as well as high-impact. High-impact exercises are better for strengthening the joints but aren't for everyone.</p>
                     <p>Walking is a natural way to improve heart and brain health.</p>
-                    <p>The Centers For Disease Control’s physical activity guidelines recommend at least 150 minutes of brisk walking each week for older adults or 75 minutes each week of more vigorous activity such as jogging (7).</p>
+                    <p>The Centers For Disease Control's physical activity guidelines recommend at least 150 minutes of brisk walking each week for older adults or 75 minutes each week of more vigorous activity such as jogging (7).</p>
                     <p>Other forms of cardio include water aerobics, using cardio machines, hiking, biking, climbing the stairs, and walking up hills.</p>
                     <p>As long as you're on your feet and getting your heart rate up, you can enjoy the benefits of aerobic activity in as little as thirty minutes a day, five times a week.</p>
             </ol>
-            <h1>Conclusion – Exercise Over 60</h1>
-            <p>Physical activity comes in many forms. When you’re choosing how to train as an older adult, make sure to include a healthy mix of balance exercises, strength exercises, and cardiovascular exercises.</p>
+            <h1>Conclusion - Exercise Over 60</h1>
+            <p>Physical activity comes in many forms. When you're choosing how to train as an older adult, make sure to include a healthy mix of balance exercises, strength exercises, and cardiovascular exercises.</p>
             <p>The benefits include less lower back pain and joint pain, stronger hips and knees, better coordination and balance, an easier time with everyday activities, and better overall health.</p>
+        </div>
+        <div className={styles.sidevideo}>
+            <h1>Watch some relevant videos here</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ev6yE55kYGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JejTelL05Qw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7gGX4r4GYI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
   )

@@ -9,7 +9,7 @@ export default function Navbar() {
        <Link to='/'><span>Home</span></Link>
        <Link to='/exercises-for-fitness'><span>Get Started</span></Link>
        <Link to='/exercise'><span>Get Fit</span></Link>
-       <Link to='/'><span>Blog</span></Link>
+       <Link to='/create-plan'><span>Contact Us</span></Link>
        <Link to='/'><span>About</span></Link>
       </nav>
     </div>
