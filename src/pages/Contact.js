@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import styles from '../styles/contact.module.css';
 
@@ -31,7 +31,12 @@ const ContactForm = () => {
       });
   };
 
+  useEffect(()=> {
+    document.title = 'Contact-Us';
+});
+
   return (
+    <div className={styles.maincontainer}>
     <div className={styles.container}>
       <h1>Still confused where to start from?</h1>
       <p>Fill the form below and our team will connect with you.</p>
@@ -82,6 +87,7 @@ const ContactForm = () => {
         </div>
         <button type="submit">Submit</button>
       </form>
+    </div>
     </div>
   );
 };

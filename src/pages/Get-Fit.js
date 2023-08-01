@@ -1,6 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { useEffect } from 'react';
 import styles from '../styles/get-started.module.css';
 export default function GetFit() {
+    useEffect(()=> {
+        document.title = 'Get-Fit';
+    });
   return (
     <div className={styles.main_container}>
         <div className={styles.container}>
